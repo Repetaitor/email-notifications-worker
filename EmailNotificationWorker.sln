@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailNotificationWorker", "EmailNotificationWorker\EmailNotificationWorker.csproj", "{C8E7F49E-F8C1-4392-B6FC-88B113BD606A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D9952BEC-AB72-4730-A8AF-DB50CED9003A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4884A81E-E77D-41D3-909B-967C781E3586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailWorkerProject", "EmailWorkerProject\EmailWorkerProject.csproj", "{142BB4FA-B79E-4207-AF8A-3F36B440360D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Persistence", "Infrastructure.Persistence\Infrastructure.Persistence.csproj", "{58A62D17-0732-4414-B423-27B0DCCBF8E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "Core.Application\Core.Application.csproj", "{B54839B6-6372-42A8-AC7C-99894BD4AE58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.MailSender", "Infrastructure.MailSender\Infrastructure.MailSender.csproj", "{2D7DD300-82BD-4632-9FB4-33776D950286}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8E7F49E-F8C1-4392-B6FC-88B113BD606A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8E7F49E-F8C1-4392-B6FC-88B113BD606A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8E7F49E-F8C1-4392-B6FC-88B113BD606A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8E7F49E-F8C1-4392-B6FC-88B113BD606A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142BB4FA-B79E-4207-AF8A-3F36B440360D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142BB4FA-B79E-4207-AF8A-3F36B440360D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142BB4FA-B79E-4207-AF8A-3F36B440360D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142BB4FA-B79E-4207-AF8A-3F36B440360D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A62D17-0732-4414-B423-27B0DCCBF8E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A62D17-0732-4414-B423-27B0DCCBF8E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A62D17-0732-4414-B423-27B0DCCBF8E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A62D17-0732-4414-B423-27B0DCCBF8E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B54839B6-6372-42A8-AC7C-99894BD4AE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54839B6-6372-42A8-AC7C-99894BD4AE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54839B6-6372-42A8-AC7C-99894BD4AE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54839B6-6372-42A8-AC7C-99894BD4AE58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D7DD300-82BD-4632-9FB4-33776D950286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7DD300-82BD-4632-9FB4-33776D950286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7DD300-82BD-4632-9FB4-33776D950286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7DD300-82BD-4632-9FB4-33776D950286}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{142BB4FA-B79E-4207-AF8A-3F36B440360D} = {D9952BEC-AB72-4730-A8AF-DB50CED9003A}
+		{58A62D17-0732-4414-B423-27B0DCCBF8E7} = {4884A81E-E77D-41D3-909B-967C781E3586}
+		{B54839B6-6372-42A8-AC7C-99894BD4AE58} = {D9952BEC-AB72-4730-A8AF-DB50CED9003A}
+		{2D7DD300-82BD-4632-9FB4-33776D950286} = {4884A81E-E77D-41D3-909B-967C781E3586}
+	EndGlobalSection
+EndGlobal

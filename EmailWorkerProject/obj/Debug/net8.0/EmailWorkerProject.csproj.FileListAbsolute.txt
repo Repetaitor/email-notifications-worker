@@ -1,0 +1,17 @@
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\bin\Debug\net8.0\EmailWorkerProject.deps.json
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\bin\Debug\net8.0\EmailWorkerProject.dll
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\bin\Debug\net8.0\EmailWorkerProject.pdb
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\obj\Debug\net8.0\EmailWorkerProject.csproj.AssemblyReference.cache
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\obj\Debug\net8.0\EmailWorkerProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\obj\Debug\net8.0\EmailWorkerProject.AssemblyInfoInputs.cache
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\obj\Debug\net8.0\EmailWorkerProject.AssemblyInfo.cs
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\obj\Debug\net8.0\EmailWorkerProject.csproj.CoreCompileInputs.cache
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\obj\Debug\net8.0\EmailWorkerProject.dll
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\obj\Debug\net8.0\refint\EmailWorkerProject.dll
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\obj\Debug\net8.0\EmailWorkerProject.pdb
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\obj\Debug\net8.0\ref\EmailWorkerProject.dll
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\bin\Debug\net8.0\Infrastructure.Persistence.dll
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\bin\Debug\net8.0\Infrastructure.Persistence.pdb
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\obj\Debug\net8.0\EmailWor.28C1DF83.Up2Date
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\bin\Debug\net8.0\Core.Application.dll
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\EmailWorkerProject\bin\Debug\net8.0\Core.Application.pdb

@@ -1,0 +1,15 @@
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\bin\Debug\net8.0\Infrastructure.MailSender.deps.json
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\bin\Debug\net8.0\Infrastructure.MailSender.dll
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\bin\Debug\net8.0\Infrastructure.MailSender.pdb
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\bin\Debug\net8.0\Core.Application.dll
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\bin\Debug\net8.0\Core.Application.pdb
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\obj\Debug\net8.0\Infrastructure.MailSender.csproj.AssemblyReference.cache
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\obj\Debug\net8.0\Infrastructure.MailSender.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\obj\Debug\net8.0\Infrastructure.MailSender.AssemblyInfoInputs.cache
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\obj\Debug\net8.0\Infrastructure.MailSender.AssemblyInfo.cs
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\obj\Debug\net8.0\Infrastructure.MailSender.csproj.CoreCompileInputs.cache
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\obj\Debug\net8.0\Infrastr.1B5B5499.Up2Date
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\obj\Debug\net8.0\Infrastructure.MailSender.dll
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\obj\Debug\net8.0\refint\Infrastructure.MailSender.dll
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\obj\Debug\net8.0\Infrastructure.MailSender.pdb
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.MailSender\obj\Debug\net8.0\ref\Infrastructure.MailSender.dll

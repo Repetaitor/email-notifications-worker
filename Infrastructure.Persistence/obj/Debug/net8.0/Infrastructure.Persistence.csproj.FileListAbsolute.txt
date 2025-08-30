@@ -1,0 +1,12 @@
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.Persistence\bin\Debug\net8.0\Infrastructure.Persistence.deps.json
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.Persistence\bin\Debug\net8.0\Infrastructure.Persistence.dll
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.Persistence\bin\Debug\net8.0\Infrastructure.Persistence.pdb
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.Persistence\obj\Debug\net8.0\Infrastructure.Persistence.csproj.AssemblyReference.cache
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.Persistence\obj\Debug\net8.0\Infrastructure.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.Persistence\obj\Debug\net8.0\Infrastructure.Persistence.AssemblyInfoInputs.cache
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.Persistence\obj\Debug\net8.0\Infrastructure.Persistence.AssemblyInfo.cs
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.Persistence\obj\Debug\net8.0\Infrastructure.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.Persistence\obj\Debug\net8.0\Infrastructure.Persistence.dll
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.Persistence\obj\Debug\net8.0\refint\Infrastructure.Persistence.dll
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.Persistence\obj\Debug\net8.0\Infrastructure.Persistence.pdb
+C:\Users\dachi\RiderProjects\EmailNotificationWorker\Infrastructure.Persistence\obj\Debug\net8.0\ref\Infrastructure.Persistence.dll

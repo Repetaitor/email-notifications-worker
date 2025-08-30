@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.1.66" />
+      <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="10.0.0-preview.7.25380.108" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Core.Application\Core.Application.csproj" />
+      <ProjectReference Include="..\Infrastructure.Persistence\Infrastructure.Persistence.csproj" />
+    </ItemGroup>
+
+</Project>
