@@ -19,24 +19,30 @@ public class EmailWorker(
     {
         while (!stoppingToken.IsCancellationRequested)
         {
-            var hoursDiff = int.Parse(configuration["EmailWorker:HOURS"] ?? "24");
-            using var connection = dapper.CreateConnection();
-            var sql = $"SELECT u.email, us.AssignmentId FROM UserAssignments as us" +
-                      $" LEFT JOIN Users as u on(u.Id = us.UserId)" +
-                      $" WHERE IsEvaluated = 1 And FeedbackSeen = 0" +
-                      $" AND DATEDIFF(HOUR, EvaluateDate, GETDATE()) >= {hoursDiff}";
-            var email = await connection.QueryAsync<(string, string)>(sql);
-            foreach (var ml in email)
+            try
             {
-                var result = await mailSender.SendEmailAsync(ml.Item1, "Feedback Reminder",
-                    $"You have pending feedback to review. Please log in to your account to complete the evaluation. {_baseUrl + "/feedback/" + ml.Item2}");
-                if (result)
-                    logger.LogInformation("Feedback reminder email sent to {Ml}", ml);
-                else
-                    logger.LogError("Failed to send feedback reminder email to {Ml}", ml);
+                var hoursDiff = int.Parse(configuration["EmailWorker:HOURS"] ?? "24");
+                using var connection = dapper.CreateConnection();
+                var sql = $"SELECT u.email, us.AssignmentId FROM UserAssignments as us" +
+                          $" LEFT JOIN Users as u on(u.Id = us.UserId)" +
+                          $" WHERE IsEvaluated = 1 And FeedbackSeen = 0" +
+                          $" AND DATEDIFF(HOUR, EvaluateDate, GETDATE()) >= {hoursDiff}";
+                var email = await connection.QueryAsync<(string, string)>(sql);
+                foreach (var ml in email)
+                {
+                    var result = await mailSender.SendEmailAsync(ml.Item1, "Feedback Reminder",
+                        $"You have pending feedback to review. Please log in to your account to complete the evaluation. {_baseUrl + "/feedback/" + ml.Item2}");
+                    if (result)
+                        logger.LogInformation("Feedback reminder email sent to {Ml}", ml);
+                    else
+                        logger.LogError("Failed to send feedback reminder email to {Ml}", ml);
+                }
+            } catch (Exception ex)
+            {
+                logger.LogError(ex, "An error occurred while sending feedback reminder emails.");
             }
 
-            await Task.Delay(TimeSpan.FromHours(hoursDiff), stoppingToken);
+            await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
         }
     }
 }
